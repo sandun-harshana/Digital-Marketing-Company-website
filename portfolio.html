@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio - DigitalSpark</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+
+<header class="bg-indigo-600 dark:bg-indigo-800 text-white p-6 sticky top-0 z-50 shadow-md">
+  <div class="container mx-auto flex justify-between items-center">
+    <a href="index.html" class="text-2xl font-bold">DigitalSpark</a>
+    <nav class="space-x-6 hidden md:flex">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="services.html" class="hover:underline">Services</a>
+      <a href="portfolio.html" class="underline decoration-indigo-300">Portfolio</a>
+      <a href="about.html" class="hover:underline">About</a>
+      <a href="blog.html" class="hover:underline">Blog</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+    </nav>
+    <button id="toggleDark" class="ml-4 p-2 rounded bg-indigo-500 hover:bg-indigo-700 transition">
+      🌙 Dark
+    </button>
+  </div>
+</header>
+
+<main class="container mx-auto px-6 py-16 max-w-6xl">
+
+  <h1 class="text-4xl font-extrabold mb-12 text-indigo-600 dark:text-indigo-400 text-center">Our Portfolio</h1>
+
+  <section class="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+    <div class="bg-indigo-50 dark:bg-gray-800 rounded-lg shadow overflow-hidden hover:shadow-lg transition cursor-pointer">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Project 1" class="w-full h-40 object-cover" />
+      <div class="p-4">
+        <h2 class="font-semibold text-lg mb-1 text-indigo-700 dark:text-indigo-300">SEO Campaign for Tech Startup</h2>
+        <p class="text-gray-700 dark:text-gray-300 text-sm">Boosted organic traffic by 150% in 6 months.</p>
+      </div>
+    </div>
+    <div class="bg-indigo-50 dark:bg-gray-800 rounded-lg shadow overflow-hidden hover:shadow-lg transition cursor-pointer">
+      <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=600&q=80" alt="Project 2" class="w-full h-40 object-cover" />
+      <div class="p-4">
+        <h2 class="font-semibold text-lg mb-1 text-indigo-700 dark:text-indigo-300">Social Media Boost for Fashion Brand</h2>
+        <p class="text-gray-700 dark:text-gray-300 text-sm">Increased follower count by 300% within 3 months.</p>
+      </div>
+    </div>
+    <div class="bg-indigo-50 dark:bg-gray-800 rounded-lg shadow overflow-hidden hover:shadow-lg transition cursor-pointer">
+      <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=600&q=80" alt="Project 3" class="w-full h-40 object-cover" />
+      <div class="p-4">
+        <h2 class="font-semibold text-lg mb-1 text-indigo-700 dark:text-indigo-300">Content Marketing for Health Blog</h2>
+        <p class="text-gray-700 dark:text-gray-300 text-sm">Generated 50,000+ page views in 4 months.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="bg-indigo-600 dark:bg-indigo-800 text-white py-6 mt-16">
+  <div class="container mx-auto text-center">
+    <p>&copy; 2025 DigitalSpark. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
